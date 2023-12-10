@@ -1,0 +1,99 @@
+<div class="container">
+
+    <div class="mb-2">
+        <div>
+            <button class="btn btn-outline-light btn-lg mb-2  me-2" (click)="isCollapsed =!isCollapsed">Filter</button>
+            <button class="btn btn-outline-light btn-lg mb-2"(click)="ResetFilters()" [hidden]="!filtering">Reset</button>
+        </div>
+
+        <div [collapse]="isCollapsed" [isAnimated]="true">
+            <div class="border mb-2 shadow-sm" style="width: 400px;">
+                <form>
+                    <div class="row mx-0">
+
+                        <!-- Sprachen -->
+                        <div class="col">
+                            <small><b>Languages:</b></small>
+                            <div class="form-group">
+                                <div class="form-check">
+                                    <input 
+                                    type="checkbox" 
+                                    class="form-check-input position-static mr-2"
+                                    [(ngModel)]="typescript"
+                                    (change)="Filter()"
+                                    name="Typescript">
+                                    <label class="form-check label small">Typescript</label>
+                                </div>
+                                <div class="form-check">
+                                    <input 
+                                    type="checkbox" 
+                                    class="form-check-input position-static mr-2"
+                                    [(ngModel)]="java"
+                                    (change)="Filter()"
+                                    name="Java">
+                                    <label class="form-check label small">Java</label>
+                                </div>
+                                <div class="form-check">
+                                    <input 
+                                    type="checkbox" 
+                                    class="form-check-input position-static mr-2"
+                                    [(ngModel)]="sql"
+                                    (change)="Filter()"
+                                    name="SQL"
+                                    >
+                                    
+                                    <label class="form-check label small">SQL</label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Frameworks -->
+                        <div class="col">
+                            <small><b>Frameworks:</b></small>
+                            <div class="form-group">
+                                <div class="form-check">
+                                    <input 
+                                    type="checkbox" 
+                                    class="form-check-input position-static mr-2"
+                                    [(ngModel)]="angular"
+                                    (change)="Filter()"
+                                    name="Angular">
+                                    
+                                    <label class="form-check label small">Angular</label>
+                                </div>
+                                <div class="form-check">
+                                    <input 
+                                    type="checkbox" 
+                                    class="form-check-input position-static mr-2"
+                                    [(ngModel)]="springboot"
+                                    (change)="Filter()"
+                                    name="SpringBoot">
+                                    
+                                    <label class="form-check label small">Spring Boot</label>
+                                </div>
+                                <div class="form-check">
+                                    <input 
+                                    type="checkbox" 
+                                    class="form-check-input position-static mr-2"
+                                    [(ngModel)]="springsecurity"
+                                    (change)="Filter()"
+                                    name="SpringSecurity">
+                                    
+                                    <label class="form-check label small">Spring Security</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <br>
+    </div>
+
+    <div class="row">
+        <div *ngFor="let project of projects" class="col-lg-4 col-md-6 mb-4" style="max-width: 380px;">
+            <app-project-card [project]="project"></app-project-card>
+        </div>
+    </div>
+
+</div>

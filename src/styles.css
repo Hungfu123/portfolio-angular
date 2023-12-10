@@ -1,1 +1,29 @@
 /* You can add global styles to this file, and also import other style files */
+.container {
+    max-width: 1140px;
+}
+header{
+    background-color: #0c1c30;
+}
+body {
+    font-family: 'Gotham';
+    background-color: #0c1c30;
+    color: white; 
+}
+
+
+.tag {
+    padding:0% 20px;
+    height: 30px;
+    width: fit-content;
+    font-size: 14px;
+    line-height: 30px;
+    border-radius: 25px;
+    background-color: blue;
+    color: white;
+}
+.code {
+    color: rgb(211, 239, 255);
+    font-family: Consolas, monospace;
+  }
+

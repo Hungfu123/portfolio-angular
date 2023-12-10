@@ -1,0 +1,22 @@
+.active-link {
+    font-weight: bold;
+    color: white; /* Optional: Setzt die Textfarbe für den aktiven Link */
+    font-size: large;
+  }
+  
+.code{
+  font-size: larger;
+}
+
+.navbar {
+  background-color: #0c1c30;
+  display: block;
+  transition: 10s;
+  width: 100%;
+
+}
+
+.navbar-brand {
+  margin-left: 45px; 
+}
+

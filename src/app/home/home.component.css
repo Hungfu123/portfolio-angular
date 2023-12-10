@@ -1,0 +1,12 @@
+.rounded-circle {
+    border-radius: 50%;
+}
+
+h2{
+    font-family: Gotham Black;
+}
+.row{
+    position: relative;
+    padding: 2rem 1.75rem;
+	height: 100%;
+}

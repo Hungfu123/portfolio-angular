@@ -1,0 +1,32 @@
+.card{
+			position: relative;
+			padding: 2rem 1.75rem;
+			height: 100%;
+			border-radius: 3px;
+			background-color: #0c1c30;
+            color: white;
+            border: 1px solid white;
+			cursor: pointer;
+
+            &:hover {
+				-webkit-transform: translateY(-5px);
+				-ms-transform: translateY(-5px);
+				transform: translateY(-5px);
+			}
+			&:hover,
+			&:focus {
+				box-shadow: 0 20px 30px -15px rgba(2, 12, 27, 0.7);
+			}
+
+			svg {
+				width: 40px;
+				height: 40px;
+				color: white;
+			}
+}
+.tag {
+    color: #0c1c30;
+    font-family: Consolas;
+    font-weight: bold;
+
+}

@@ -1,0 +1,35 @@
+<div class="container">
+    <div class="row">
+        <!-- Über mich -->
+        <div class="col-lg shadow border m-1">
+            <div class="text-center">
+                <br>
+                <h2> Über mich</h2>
+                <br>
+                <img src="../../assets/bfoto.png" alt="bewerbungsfoto" height="256" class="rounded-circle">
+                <br>
+                <br>
+                <p>
+                    Mein Name ist Hung Luu, ich studiere Informatik, bin 25 Jahre alt und programmiere gerne in meiner Freizeit. Außerdem gehe ich gerne joggen und fotografieren.</p>
+            </div>
+        </div>
+    <!-- meine Projekte  -->
+        <div class="col-lg shadow border m-1">
+            <div class="text-center">
+                <br>
+                <h2>Meine Projekte</h2>
+                <h4>{{featuredProject.name}}</h4>
+            </div>
+            <carousel>
+                <div *ngFor="let picture of featuredProject.pictures">
+                    <slide><img src="{{picture}}" alt="slide" style="display: block; height: 256px; width: 512px;"></slide>
+                </div>
+            </carousel>
+
+            <p class="mt-2">{{featuredProject.summary}}</p>
+            <p>Mehr erfahren!</p>
+        </div>
+    
+    </div>
+
+</div>

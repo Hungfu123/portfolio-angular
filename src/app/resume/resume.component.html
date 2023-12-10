@@ -1,0 +1,157 @@
+<div class="container text-center">
+    <button (click)="DownloadFile()" class="btn btn-outline-light mv-5 shadow border">Download PDF Lebenslauf</button>
+
+    <div class="pb-2 mt-3">
+    <accordion [isAnimated]="true" class="accontent">
+        <accordion-group [(isOpen)]="isWorkExperienceOpen">
+            <button class="btn btn-block justify-content-between d-flex w-100" accordion-heading>
+                <div style="visibility: hidden;"></div>
+                <div class="btn-link">Berufspraxis</div>
+
+                <div style="width: 10.95px;">
+                    <div *ngIf="!isWorkExperienceOpen" style="color: white;">></div>
+                    <div *ngIf="isWorkExperienceOpen" style="color: white;">v</div>
+                </div>
+
+            </button>
+            <div style="text-align: left;">
+            <h2 class="mb-0">Werkstudent Softwareentwicklung Qualitätssicherung</h2>
+            <h3 >adesso insurance-solutions GmbH</h3>
+            <p class="text-secondary">2022 - heute</p>
+            <ul>
+                <li>Erstellung der automatisierten Regressionstests mit Java und dem Framework Selenium, XPath</li>
+                <li>Mitentwicklung am Selenium Framework</li>
+                <li>Mitwirkung an Datenbankschnittstellen</li>
+                <li>Ticketerstellung mit Jira und Nutzung von Kanbas und Confluence</li>
+            </ul>
+            </div>
+        <hr>
+        <div style="text-align: left;">
+            <h2 class="mb-0">Werkstudent IT Projektmanagement/Support</h2>
+            <h3>DGK, Deutsche Gesellschaft für Kardiologie</h3>
+            <p class="text-secondary">2020-2022</p>
+            <ul>
+                <li>Webseitengestaltung mit Wordpress</li>
+                <li>Betreuung von IT Projekten</li>
+                <li>Verfassen und Organisation von Bug Tickets</li>
+                <li>Dokumentation von Testprotokollen und Durchführen von Softwaretests</li>
+                <li>Anwenden von Web Tools (Confluence)</li>
+            </ul>
+            </div>
+             <hr>
+        <div style="text-align: left;">
+            <h2 class="mb-0">Werkstudent Architektur</h2>
+            <h3>Rathke Architekten GmbH</h3>
+            <p class="text-secondary">2019 - 2020</p>
+            <ul>
+                <li>3D Modellierung, CAD, Grafikdesign</li>
+            </ul>
+            </div>
+        </accordion-group>
+        <accordion-group [(isOpen)]="isEducationOpen">
+            <button class="btn btn-block justify-content-between d-flex w-100" accordion-heading>
+                <div style="visibility: hidden;"></div>
+                <div class="btn-link">Bildung</div>
+
+                <div style="width: 10.95px;">
+                    <div *ngIf="!isEducationOpen" style="color: white;">></div>
+                    <div *ngIf="isEducationOpen" style="color: white;">v</div>
+                </div>
+            </button>
+            <div style="text-align: left;">
+                <h2 class="mb-0">Bachelor of Science Informatik</h2>
+                <h3>Heinrich-Heine-Universität Düsseldorf</h3>
+                <p class="text-secondary">2021 - 2025 (Erwartet)</p>
+                <ul>
+                    <li>Module: Programmierpraktikum, Datenbanken, Machine Learning</li>
+                    <li>Mitentwicklung am Selenium Framework</li>
+                </ul>
+                </div>
+                <hr>
+                <div style="text-align: left;">
+                    <h2 class="mb-0">Bachelor of Science Architektur</h2>
+                    <h3>Bergische Universität Wuppertal </h3>
+                    <p class="text-secondary">2017 - 2021</p>
+                    <ul>
+                        <li>Note: 2,0</li>
+                    </ul>
+                </div>
+                <hr>
+                <div style="text-align: left;">
+                    <h2 class="mb-0">Allgemeine Hochschulreife</h2>
+                    <h3>Gymnasium an der Gartenstraße</h3>
+                    <p class="text-secondary">2014 - 2017</p>
+                    <ul>
+                        <li>Module: Programmierpraktikum, Datenbanken, Machine Learning</li>
+                        <li>Mitentwicklung am Selenium Framework</li>
+                    </ul>
+                    </div>
+        </accordion-group>
+
+        <accordion-group [(isOpen)]="isSkillOpen">
+            <button class="btn btn-block justify-content-between d-flex w-100" accordion-heading>
+                <div style="visibility: hidden;"></div>
+                <div class="btn-link">Skills</div>
+
+                <div style="width: 10.95px;">
+                    <div *ngIf="!isSkillOpen" style="color: white;">></div>
+                    <div *ngIf="isSkillOpen" style="color: white;">v</div>
+                </div>
+
+            </button>
+            <div style="text-align: left;">
+                <div class="col">
+                    <h3>Programmiersprachen:</h3>
+                    <ul>
+                        <li>Java</li>
+                        <li>Python</li>
+                        <li>C++</li>
+                        <li>SQL</li>
+                        <li>Typescript</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h3>Frameworks:</h3>
+                    <ul>
+                        <li>Spring Boot</li>
+                        <li>JUnit</li>
+                        <li>Mockito</li>
+                        <li>Angular</li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h3>Entwickler Tools:</h3>
+                    <ul>
+                        <li>Git</li>
+                        <li>Bitbucket</li>
+                        <li>Intellij</li>
+                        <li>Eclipse</li>
+                        <li>VSCode</li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h3>Konzepte:</h3>
+                    <ul>
+                        <li>Clean Code</li>
+                        <li>SOLID</li>
+                        <li>FIRST</li>
+                        <li>Dependency Injection</li>
+                        <li>TDD</li>
+                        <li>Agile Development</li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h3>Sprachen:</h3>
+                    <ul>
+                        <li>Deutsch(Muttersprache)</li>
+                        <li>Vietnamesisch(Muttersprache)</li>
+                        <li>Englisch(Fortgeschritten)</li>
+                    </ul>
+                </div>
+            </div>
+        </accordion-group>
+    </accordion>
+</div>
+</div>

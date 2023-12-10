@@ -1,0 +1,27 @@
+accordion-group::ng-deep.btn-link {
+    color: white;
+
+}
+accordion-group::ng-deep.card-header {
+    background-color: #0c1c30;
+}
+
+
+  
+.btn-link {
+    font-family: Gotham Black;
+    text-decoration: none; 
+  }
+
+accordion-group::ng-deep.card-body {
+    background-color: #0c1c30;
+    color: rgb(211, 239, 255);
+}
+
+accordion-group::ng-deep.card-body h3{
+    color: white;
+}
+
+.mb-0{
+    color: white;
+}
