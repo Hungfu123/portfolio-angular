@@ -23,7 +23,7 @@ export class ProjectsService {
       summary: 'Raum Reservierungs App mit präferierter Ausstattung',
       description: 'RoomMate ist eine innovative Raummanagement-Webanwendung, die mit Spring Boot und Java entwickelt wurde. Ziel ist es, wissenschaftlichen Angestellten die Reservierung von Büroplätzen mit spezifischer Hardware für bestimmte Zeiträume zu ermöglichen. Die Anwendung bietet regulären Benutzern die Möglichkeit, Plätze zu reservieren, während Administrator:innen Platzinformationen verwalten, Ausstattung ändern und Reservierungen managen können. Die Suche nach Plätzen ist mit Filteroptionen für Ausstattung und Zeiträume ausgestattet. Die Integration mit dem fiktiven KeyMaster-System ermöglicht zudem das Freigeben von Türen zu bestimmten Zeiten. Technologisch basiert das System auf Spring Security für die Sicherheit und Thymeleaf für die Benutzeroberfläche. RoomMate bietet somit nicht nur Raumoptimierung, sondern auch eine effiziente Nutzung von Sicherheits- und Webtechnologien für eine optimale Nutzererfahrung an der Universität.',
       projectLink: 'https://github.com/Hungfu123/roomMate',
-      pictures: ["../../assets/roomMate.jpg", "../../assets/RoomMate-UI.jpg", "../../assets/roomMate-search.jpg", "../../assets/roomMate-booking.jpg", "../../assets/roomMate-success.jpg"  ],
+      pictures: ["assets/roomMate.jpg", "assets/RoomMate-UI.jpg", "assets/roomMate-search.jpg", "assets/roomMate-booking.jpg", "assets/roomMate-success.jpg"  ],
       tags: [Tag.SPRING_BOOT, Tag.JAVA, Tag.SQL, Tag.SPRING_SECURITY, Tag.THYMELEAF],
     },
 
@@ -33,7 +33,7 @@ export class ProjectsService {
       summary: 'Blog App, wo User ihre eigenen Einträge posten und kommentieren können',
       description: 'Ich habe eine moderne Blog-Webanwendung entwickelt, die auf Spring Boot und Java SQL basiert. Mit Spring JPA habe ich eine nahtlose Datenbankintegration realisiert. Diese Anwendung ermöglicht es Benutzern, mühelos eigene Beiträge zu verfassen und Kommentare zu hinterlassen. Durch die Implementierung eines übersichtlichen Admin-Bereichs wird eine effektive Verwaltung gewährleistet. Die Anmeldung ist durch die Integration von Spring Security sicher gestaltet. Die Benutzeroberfläche wurde durch die Verwendung von HTML, Thymeleaf und CSS Bootstrap ansprechend gestaltet, um eine intuitive und ansprechende Benutzererfahrung zu bieten.',
       projectLink: 'https://github.com/Hungfu123/web-blog-app',
-      pictures: ["../../assets/blogapp.jpg", "../../assets/blogapp-test.jpg","../../assets/blogapp-kommentare.jpg", "../../assets/blogapp-anmelden.jpg", "../../assets/blogapp-admin.jpg", ],
+      pictures: ["assets/blogapp.jpg", "assets/blogapp-test.jpg","assets/blogapp-kommentare.jpg", "assets/blogapp-anmelden.jpg", "assets/blogapp-admin.jpg", ],
       tags: [Tag.SPRING_BOOT, Tag.JAVA, Tag.SQL, Tag.SPRING_SECURITY, Tag.THYMELEAF],
     },
     {
@@ -42,7 +42,7 @@ export class ProjectsService {
       summary: 'Plattform zur Katalogisierung und Pflege städtischer Bepflanzung',
       description: 'Ich habe ein fortschrittliches RESTful Web Service entwickelt, das eine Plattform für die Katalogisierung und Pflege städtischer Bepflanzung ermöglicht. Nutzer, als "Bürger" bezeichnet, können Pflanzen eintragen, an gärtnerischen Maßnahmen teilnehmen und ihren Wohnort angeben. Jede Pflanze hat deutsche und lateinische Bezeichnungen, ein Pflanzdatum und kann von einem Gärtner gepflanzt oder als wildwachsend betrachtet werden. Pflegemaßnahmen, die an einem bestimmten Datum stattfinden, können von Bürgern und einem Gärtner durchgeführt werden. Gärtner haben Spezialisierungen, erstellen Pflegeprotokolle und bewerten Maßnahmen (Skala: 1 - 5).',
       projectLink: 'ONGOING',
-      pictures: ["../../assets/pflanzen.jpg", "../../assets/pflanzen.jpg"],
+      pictures: ["assets/pflanzen.jpg", "assets/pflanzen.jpg"],
       tags: [Tag.JAVA, Tag.SQL, Tag.SPRING_BOOT],
     },
     {

@@ -20,7 +20,7 @@ export class ResumeComponent {
   DownloadFile() {
     const link = this.renderer.createElement('a');
     link.setAttribute('target', '_blank');
-    link.setAttribute('href', '../../assets/luu_lebenslauf.pdf');
+    link.setAttribute('href', 'assets/luu_lebenslauf.pdf');
     link.setAttribute('download', 'luu_lebenslauf.pdf');
     link.click();
     link.remove();
