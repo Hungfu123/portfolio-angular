@@ -1,28 +1,49 @@
-# LuuPortfolio
+# My Portfolio
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.3.
+Willkommen auf meiner Portfolio-Website, entwickelt mit Angular und TypeScript.
 
-## Development server
+## Home-Bereich
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Der Home-Bereich gibt einen kurzen Überblick über meine Fähigkeiten und Schwerpunkte.
 
-## Code scaffolding
+## Projektübersicht
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+In der Projektübersicht findest du eine Liste meiner Projekte mit Tags für Sprachen und Frameworks. Nutze die Filterfunktion, um gezielt nach Projekten zu suchen.
 
-## Build
+### Technologiestack
+- Angular
+- TypeScript
+- Angular Router
+- Angular Services
+- CSS/SCSS
+- Responsive Design
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+### Projekte
 
-## Running unit tests
+- Projekt A: [Repository](https://github.com/deinbenutzername/projekt-a)
+  - Tags: Angular, TypeScript, CSS
+- Projekt B: [Repository](https://github.com/deinbenutzername/projekt-b)
+  - Tags: Java, Spring Boot, Thymeleaf
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Lebenslauf-Bereich
 
-## Running end-to-end tests
+Der Lebenslauf-Bereich zeigt meinen beruflichen Werdegang strukturiert an. Du kannst auch meinen Lebenslauf herunterladen.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## Kontakt-Bereich
 
-## Further help
+Im Kontakt-Bereich kannst du mich erreichen:
+- [LinkedIn](https://www.linkedin.com/in/deinbenutzername/)
+- [Twitter](https://twitter.com/deinbenutzername/)
+- E-Mail: deine.email@example.com
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
-# portfolio-angular
+## Setup
+
+1. Klone das Repository: `git clone https://github.com/deinbenutzername/portfolio.git`
+2. Navigiere in das Verzeichnis: `cd portfolio`
+3. Installiere die Abhängigkeiten: `npm install`
+4. Starte die Anwendung: `ng serve`
+5. Öffne die Anwendung im Browser: [http://localhost:4200/](http://localhost:4200/)
+
+## Lizenz
+
+Dieses Projekt ist unter der [MIT-Lizenz](LICENSE) lizenziert.
