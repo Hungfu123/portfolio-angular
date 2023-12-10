@@ -38,7 +38,7 @@ export class ProjectsService {
     },
     {
       id: 3,
-      name: 'RESTful Web Services einer Planzen-Plattform (ONGOING)',
+      name: 'RESTful Web Services einer Bepflanzungs-Plattform (ONGOING)',
       summary: 'Plattform zur Katalogisierung und Pflege städtischer Bepflanzung',
       description: 'Ich habe ein fortschrittliches RESTful Web Service entwickelt, das eine Plattform für die Katalogisierung und Pflege städtischer Bepflanzung ermöglicht. Nutzer, als "Bürger" bezeichnet, können Pflanzen eintragen, an gärtnerischen Maßnahmen teilnehmen und ihren Wohnort angeben. Jede Pflanze hat deutsche und lateinische Bezeichnungen, ein Pflanzdatum und kann von einem Gärtner gepflanzt oder als wildwachsend betrachtet werden. Pflegemaßnahmen, die an einem bestimmten Datum stattfinden, können von Bürgern und einem Gärtner durchgeführt werden. Gärtner haben Spezialisierungen, erstellen Pflegeprotokolle und bewerten Maßnahmen (Skala: 1 - 5).',
       projectLink: 'ONGOING',
