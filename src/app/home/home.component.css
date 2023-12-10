@@ -3,7 +3,11 @@
 }
 
 h2{
-    font-family: Gotham Black;
+    font-family: Montserrat;
+}
+p{
+    font-family: FiraCode;
+    left: auto;
 }
 .row{
     position: relative;

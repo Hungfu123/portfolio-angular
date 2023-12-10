@@ -6,7 +6,7 @@ header{
     background-color: #0c1c30;
 }
 body {
-    font-family: 'Gotham';
+    font-family: 'Montserrat-Regular';
     background-color: #0c1c30;
     color: white; 
 }
@@ -24,6 +24,19 @@ body {
 }
 .code {
     color: rgb(211, 239, 255);
-    font-family: Consolas, monospace;
+    font-family: FiraCode;
   }
 
+@font-face {
+    font-family: FiraCode;
+    src: url(assets/font/SpaceMono-Regular.ttf) format("opentype");
+  }
+
+  @font-face {
+    font-family: Montserrat;
+    src: url(assets/font/Montserrat-Bold.ttf) format("opentype");
+  }
+  @font-face {
+    font-family: Montserrat-Regular;
+    src: url(assets/font/Montserrat-Regular.ttf) format("opentype");
+  }

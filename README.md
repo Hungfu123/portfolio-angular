@@ -1,15 +1,21 @@
 # My Portfolio
 
 Willkommen auf meiner Portfolio-Website, entwickelt mit Angular und TypeScript.
-Hier könnt ihr auf meine Portfolio-Seite zugreifen: https://hungfu123.github.io/portfolio-angular/home
+<!-- Hier könnt ihr auf meine Portfolio-Seite zugreifen: https://hungfu123.github.io/portfolio-angular/home -->
 
 ## Home-Bereich
 
-Der Home-Bereich gibt einen kurzen Überblick über meine Fähigkeiten und Schwerpunkte.
+Der Home-Bereich gibt einen kurzen Überblick über meine Fähigkeiten und Schwerpunkte. Hier habe ich mit RouterLinks gerarbeitet.
+
+![Homepage](images/home.jpg)
 
 ## Projektübersicht
 
-In der Projektübersicht findest du eine Liste meiner Projekte mit Tags für Sprachen und Frameworks. Nutze die Filterfunktion, um gezielt nach Projekten zu suchen.
+In der Projektübersicht findest du eine Liste meiner Projekte mit Tags für Sprachen und Frameworks. Nutze die Filterfunktion, um gezielt nach Projekten zu suchen.  Außerdem gibt es eine Detailübersicht dazu, wenn man auf Details klickt.
+
+![Homepage](images/project.jpg)
+
+
 
 ### Technologiestack
 - Angular
@@ -21,21 +27,20 @@ In der Projektübersicht findest du eine Liste meiner Projekte mit Tags für Spr
 
 ### Projekte
 
-- Projekt A: [Repository](https://github.com/deinbenutzername/projekt-a)
+- Projekt A: 
   - Tags: Angular, TypeScript, CSS
-- Projekt B: [Repository](https://github.com/deinbenutzername/projekt-b)
+- Projekt B:
   - Tags: Java, Spring Boot, Thymeleaf
 
 ## Lebenslauf-Bereich
 
-Der Lebenslauf-Bereich zeigt meinen beruflichen Werdegang strukturiert an. Du kannst auch meinen Lebenslauf herunterladen.
+Der Lebenslauf-Bereich zeigt meinen beruflichen Werdegang strukturiert an mit Accordions. Du kannst auch meinen Lebenslauf herunterladen.
+
+![Homepage](images/resume.jpg)
 
 ## Kontakt-Bereich
 
-Im Kontakt-Bereich kannst du mich erreichen:
-- [LinkedIn](https://www.linkedin.com/in/deinbenutzername/)
-- [Twitter](https://twitter.com/deinbenutzername/)
-- E-Mail: deine.email@example.com
+![Homepage](images/kontakt.jpg)
 
 ## Setup
 
@@ -45,6 +50,4 @@ Im Kontakt-Bereich kannst du mich erreichen:
 4. Starte die Anwendung: `ng serve`
 5. Öffne die Anwendung im Browser: [http://localhost:4200/](http://localhost:4200/)
 
-## Lizenz
 
-Dieses Projekt ist unter der [MIT-Lizenz](LICENSE) lizenziert.

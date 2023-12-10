@@ -9,19 +9,26 @@ accordion-group::ng-deep.card-header {
 
   
 .btn-link {
-    font-family: Gotham Black;
+    font-family:  Montserrat;
     text-decoration: none; 
   }
 
 accordion-group::ng-deep.card-body {
     background-color: #0c1c30;
     color: rgb(211, 239, 255);
+    font-family: FiraCode;
 }
 
-accordion-group::ng-deep.card-body h3{
+accordion-group::ng-deep.card-body h3,h2{
     color: white;
+    font-family: Montserrat;
 }
 
 .mb-0{
     color: white;
+}
+
+.btn-outline-light{
+    font-family:  FiraCode;
+
 }

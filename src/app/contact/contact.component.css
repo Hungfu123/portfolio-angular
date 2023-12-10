@@ -2,3 +2,15 @@
     background-color: #0c1c30;
     color: white;
 }
+p{
+    color: rgb(211, 239, 255);
+
+}
+ul { display:inline-block;
+    decoration: none;
+}
+li {
+    font-family: FiraCode;
+    text-align:left;
+    list-style-type:none;
+}
