@@ -1,7 +1,7 @@
 # My Portfolio
 
 Willkommen auf meiner Portfolio-Website, entwickelt mit Angular und TypeScript.
-<!-- Hier könnt ihr auf meine Portfolio-Seite zugreifen: https://hungfu123.github.io/portfolio-angular/ -->
+Hier könnt ihr auf meine Portfolio-Seite zugreifen: https://hungfu123.github.io/portfolio-angular/
 
 ## Home-Bereich
 
